@@ -1,5 +1,9 @@
 # transporter-demo
-Configs and various pipelines and example transforms for demoing the Cloudant adaptor for Compose Transporter. To install the transporter system from scratch, including Stefan's experimental Cloudant adaptor, please follow the following steps (OSX):
+Configs and various pipelines and example transforms for demoing the Cloudant adaptor for Compose Transporter. 
+
+A screen cast of the presentation covering this stuff can be found here: https://ibm.box.com/cloudant-transporter
+
+To install the transporter system from scratch, including Stefan's experimental Cloudant adaptor, please follow the following steps (OSX):
 
 - Install Go 1.5.X, 64bit, e.g:
   
