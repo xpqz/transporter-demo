@@ -73,4 +73,4 @@ Configs and various pipelines and example transforms for demoing the Cloudant ad
   % ./transporter run --config transporter-demo/config/config.yaml transporter-demo/applications/file-cdt.js
   ```
 
-- The other applications and transformers make use of my `routes` database. It is open for reading, so please replicate it if you wish, or use my examples as a guide for how to use your own databases.
+- The other applications and transformers make use of Stefan's `routes` database. It is open for reading, so please replicate it if you wish, or use the examples as a guide for how to use your own databases.
