@@ -74,7 +74,8 @@ To install the transporter system from scratch, including Stefan's experimental 
 
   ```bash
   % cd $GOPATH/src/github.com/compose/transporter
-  % ./transporter run --config transporter-demo/config/config.yaml transporter-demo/applications/file-cdt.js
+  % ./transporter run --config transporter-demo/config/config.yaml \
+       transporter-demo/applications/file-cdt.js
   ```
 
 - The other applications and transformers make use of Stefan's `routes` database. It is open for reading, so please replicate it if you wish, or use the examples as a guide for how to use your own databases.
