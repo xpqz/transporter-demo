@@ -58,3 +58,10 @@ Configs and various pipelines and example transforms for demoing the Cloudant ad
   % godep restore
   % godep go build -a ./cmd/...
   ```
+  
+- Clone this repo in order to get the example files:
+
+  ```bash
+  % cd $GOPATH/src/github.com/compose/transporter
+  % git clone https://github.com/xpqz/transporter-demo.git
+  ```
