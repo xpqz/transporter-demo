@@ -39,7 +39,7 @@ Configs and various pipelines and example transforms for demoing the Cloudant ad
   /Users/stefan/work/demo/go/src/github.com/xpqz/transporter
   ```
 
-  The reason this errors is that Transporter doesn't quite obey go's recommended project layout.
+  The reason this errors is that Transporter doesn't quite obey Go's recommended project layout.
 
 - Set Stefan's hacked-up version as a fork, and pull down the changes:
 
