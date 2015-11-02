@@ -1,5 +1,5 @@
 # transporter-demo
-Configs and various pipelines and example transforms for demoing the Cloudant adapter for Compose Transporter. To install the transporter system from scratch, including Stefan's experimental Cloudant adaptor, please follow the following steps (OSX):
+Configs and various pipelines and example transforms for demoing the Cloudant adaptor for Compose Transporter. To install the transporter system from scratch, including Stefan's experimental Cloudant adaptor, please follow the following steps (OSX):
 
 - Install Go 1.5.X, 64bit, e.g:
   
@@ -68,6 +68,9 @@ Configs and various pipelines and example transforms for demoing the Cloudant ad
   
 - Edit the example config file, found in `transporter-demo/config/config.yaml` with your Cloudant account details, ideally with a user that has write permissions. You should now be able to run the first example, reading data from a file, and writing to a Cloudant database:
 
-  `./transporter run --config transporter-demo/config/config.yaml transporter-demo/applications/file-cdt.js`
+  ```bash
+  % cd $GOPATH/src/github.com/compose/transporter
+  % ./transporter run --config transporter-demo/config/config.yaml transporter-demo/applications/file-cdt.js
+  ```
 
 - The other applications and transformers make use of my `routes` database. It is open for reading, so please replicate it if you wish, or use my examples as a guide for how to use your own databases.
