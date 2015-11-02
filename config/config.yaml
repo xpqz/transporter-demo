@@ -1,0 +1,23 @@
+# api:
+#   interval: 60s
+#   uri: "http://requestb.in/13gerls1"
+#   key: "48593282-b38d-4bf5-af58-f7327271e73d"
+#   pid: "something-static"
+nodes:
+  localmongo:
+    type: mongo
+    uri: mongodb://localhost/foo
+  cloudant:
+    type: cloudant
+#    uri: https://USER:PASS@USER.cloudant.com
+  es:
+    type: elasticsearch
+    uri: http://localhost:9200/
+  debug:
+    type: file
+    uri: stdout://
+  file:
+    type: file
+  foofile:
+    type: file
+    uri: file:///tmp/foo
