@@ -5,11 +5,11 @@ A screen cast of the presentation covering this stuff can be found here: https:/
 
 To install the transporter system from scratch, including Stefan's experimental Cloudant adaptor, please follow the following steps (OSX):
 
-- Install Go 1.5.X, 64bit, e.g:
+- Install `Go` 1.5.X, 64bit, e.g:
   
   `% brew install go`
 
-- Install mercurial. It's required for a dependency of Transporter's.
+- Install `mercurial`. It's required for a dependency of Transporter's.
 
   `% brew install mercurial`
 
