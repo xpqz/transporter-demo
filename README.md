@@ -36,14 +36,12 @@ To install the transporter system from scratch, including Stefan's experimental 
 
   `% go get github.com/compose/transporter`
 
-  This will give you an error that you can safely ignore:
+  This will give you a warning that you can safely ignore:
 
   ```text
   package github.com/xpqz/transporter: no buildable Go source files in
   /Users/stefan/work/demo/go/src/github.com/xpqz/transporter
   ```
-
-  The reason this errors is that Transporter doesn't quite obey Go's recommended project layout.
 
 - Set Stefan's hacked-up version as a fork, and pull down the changes:
 
